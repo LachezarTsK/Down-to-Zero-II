@@ -7,10 +7,10 @@ public class Solution {
 
   /**
    * Array 'minMoves' stores the precomputed minimum moves for all possible 
-   * input values of 'start', from 0 to MAX_INPUT.
+   * input values of start position, from 0 to MAX_INPUT.
    *
    * Since there are multiple queries, and some of them with quite high 
-   * input values of 'start', not storing the precomputed minimum moves 
+   * input values of start, not storing the precomputed minimum moves 
    * will result in time-out for some test cases of this challenge.
    */
   private static int[] minMoves = new int[MAX_INPUT + 1];
@@ -29,8 +29,8 @@ public class Solution {
   }
 
   /**
-   * Calculates the minimum moves for all possible input values of 'start' 
-   * and stores them in array 'minMoves'.
+   * Calculates the minimum moves for all possible input values of 
+   * the start position and stores them in array 'minMoves'.
    *
    * As per the challenge conditions, the moves begin at the input value 
    * (variable 'start') and continue until zero is reached.
