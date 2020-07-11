@@ -11,7 +11,7 @@ public class Solution {
    *
    * Since there are multiple queries, and some of them with quite high 
    * input values of 'start', not storing the precomputed minimum moves 
-   * will result in time-out for somee test cases of this challenge.
+   * will result in time-out for some test cases of this challenge.
    */
   private static int[] minMoves = new int[MAX_INPUT + 1];
 
