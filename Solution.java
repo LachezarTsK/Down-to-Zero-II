@@ -7,7 +7,7 @@ public class Solution {
 
   /**
    * Array 'minMoves' stores the precomputed minimum moves for all possible 
-   * input values of start position, from 0 to MAX_INPUT.
+   * input values of the start position, from 0 to MAX_INPUT.
    *
    * Since there are multiple queries, and some of them with quite high 
    * input values of start, not storing the precomputed minimum moves 
